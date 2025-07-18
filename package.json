@@ -1,0 +1,33 @@
+{
+
+    "name": "my-nodemon-like-tool",
+
+    "version": "1.0.0",
+
+    "bin": {
+
+        "my-nodemon-like-tool": "./index.js"
+
+    },
+
+    "scripts": {
+
+        "start": "node index.js"
+
+    },
+
+    "keywords": [],
+
+    "author": "",
+
+    "license": "ISC",
+
+    "dependencies": {
+
+        "chokidar": "^3.6.0",
+
+        "commander": "^12.1.0"
+
+    }
+
+}
